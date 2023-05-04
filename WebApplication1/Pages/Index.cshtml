@@ -1,5 +1,6 @@
 ﻿@page
 @model IndexModel
+
 @{
     ViewData["Title"] = "Home page";
 }
@@ -9,9 +10,9 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 <div class="center">
-    <div id="map" style="height:600px; width:600px;"></div> 
+    <div id="map" style="height:300px; width:600px;"></div> 
     <script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&callback=initMAP">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPHIana7ip3J58fGmXrJIaz0wGQBqwWvU&callback=initMAP">
 	</script>
     <script>  
         var map;  
@@ -23,7 +24,18 @@
             map = new google.maps.Map(document.getElementById('map'),  
       SetmapOptions);  
         }  
-  
     </script>  
-    <div>GET API KEY <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">HERE</a>:</div>
+    <div>
+        <p>
+            <!--display table data-->
+            <h1>Table Data</h1>
+            <p>@Model.databasetableCol</p>
+            <p>@Model.databasetableRow</p>
+        </p>
+
+    </div>
+  
+
+    <div><a href="https://developers.google.com/maps/documentation/javascript/get-api-key">API Key</a>:</div>
+    
 </div>
