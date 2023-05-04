@@ -2003,23 +2003,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ajrke\\.nuget\\packages\\": {},
+    "C:\\Users\\BlackBox\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\BasicHelloPages.csproj",
+      "projectUniqueName": "E:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\BasicHelloPages.csproj",
       "projectName": "BasicHelloPages",
-      "projectPath": "C:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\BasicHelloPages.csproj",
-      "packagesPath": "C:\\Users\\ajrke\\.nuget\\packages\\",
-      "outputPath": "C:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\obj\\",
+      "projectPath": "E:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\BasicHelloPages.csproj",
+      "packagesPath": "C:\\Users\\BlackBox\\.nuget\\packages\\",
+      "outputPath": "E:\\DEVELOPMENT\\Git-School\\BasicHelloPages\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ajrke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BlackBox\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2071,7 +2071,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
