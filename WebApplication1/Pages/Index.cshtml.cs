@@ -63,8 +63,8 @@ namespace WebApplication1.Pages
 
             //Question 20
             Console.WriteLine("Question 20 Total balance");
-            printreps(dt2);
-
+            //printreps(dt2);
+            print_results(dt2);
             conn.Close();
         }
 

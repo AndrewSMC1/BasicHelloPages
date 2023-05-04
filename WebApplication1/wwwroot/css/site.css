@@ -15,4 +15,16 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:aliceblue
+  
+}
+footer {
+    background-color: white
+}
+#map {
+    background-color: aliceblue
+}
+.center .datatable {
+    
+    background-color: white
 }
