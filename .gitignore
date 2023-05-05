@@ -475,3 +475,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Data base cache
+*.dbtcache
+*.dtbcache.v2
+*.dtbcache.*
