@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Hosting.Server;
+using System;
 
 namespace WebApplication1.Pages
 {
@@ -21,7 +23,9 @@ namespace WebApplication1.Pages
 		public void OnGet()
 		{
             // connection string
-            string connectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog=prods;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            // string connectionString = "Data Source=(localdb)\\ProjectModels;Initial Catalog=prods;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            //string connectionString = "Server=tcp:prodsdbserver.database.windows.net,1433;Initial Catalog=prods;Persist Security Info=False;User ID=cs190admin;Password=########;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+            string connectionString = "Data Source=prodsdbserver.database.windows.net;Initial Catalog=prods;User ID=cs190admin;Password=#########;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
             // Connect to a PostgreSQL database
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
